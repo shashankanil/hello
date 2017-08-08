@@ -1,0 +1,25 @@
+#include<iiosream.h>
+#include<conio.h>
+class hello
+{
+ private:int a,b,c;
+ public:void input();
+        void compute();
+};
+void hello::input()
+{
+ cout<<"input values a,b,c"<<endl;
+ cin>>a>>b>>c;
+ }
+void hello::output()
+{
+cout<<a<<b<<c<<"one github program created!"<<endl;
+}
+void main()
+{
+hello h;
+clrscr();
+h.input()
+h.output();
+getch();
+}
